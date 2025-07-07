@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  web:
+    image: varshipk/node-todo-cicd:latest
+    ports:
+      - "8000:8000"
